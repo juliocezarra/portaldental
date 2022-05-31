@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+
+    <!-- Import do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+   
+    <section class="card-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <div class="card p-3">
+                        <p class="mb-0 fw-bold h4">Métodos De Pagamento</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card p-3">
+                        <div class="card-body border p-0">
+                            <p>
+                                <a class="btn btn-primary w-100 h-100 d-flex align-items-center justify-content-between"
+                                    data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                                    aria-controls="collapseExample">
+                                    <span class="fw-bold">PayPal</span>
+                                    <span class="fab fa-cc-paypal">
+                                    </span>
+                                </a>
+                            </p>
+                        <div class="card-body border p-0">
+                            <p>
+                                <a class="btn btn-primary p-2 w-100 h-100 d-flex align-items-center justify-content-between"
+                                    data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                                    aria-controls="collapseExample">
+                                    <span class="fw-bold">Cartão de credito</span>
+                                    <span class="">
+                                        <span class="fab fa-cc-amex"></span>
+                                        <span class="fab fa-cc-mastercard"></span>
+                                        <span class="fab fa-cc-discover"></span>
+                                    </span>
+                                </a>
+                            </p>
+                            <div class="collapse show p-3 pt-0" id="collapseExample">
+                                <div class="row">
+                                    <div class="col-lg-5 mb-lg-0 mb-3">
+                                        <p class="h4 mb-0">Dados    </p>
+                                        <p class="mb-0"><span class="fw-bold">Plano Premium</span><span class="c-green">: 15% off</span>
+                                        </p>
+                                        <p class="mb-0">
+                                            <span class="fw-bold">Preço:</span>
+                                            <span class="c-green">:R$629,99</span>
+                                        </p>
+                                        <p class="mb-0">Manutenção grátis por 6 meses
+                                            1 Consulta a domicilio por mês
+                                            Prioridade premium na fila de espera
+                                            Familia inclusa até 4 pessoas</p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <form action="" class="form">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form__div">
+                                                        <input type="text" class="form-control" placeholder=" ">
+                                                        <label for="" class="form__label">Numero do cartão</label>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="col-6">
+                                                    <div class="form__div">
+                                                        <input type="text" class="form-control" placeholder=" ">
+                                                        <label for="" class="form__label">Mês / Ano </label>
+                                                    </div>
+                                                </div>
+        
+                                                <div class="col-6">
+                                                    <div class="form__div">
+                                                        <input type="password" class="form-control" placeholder=" ">
+                                                        <label for="" class="form__label">CVV</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form__div">
+                                                        <input type="text" class="form-control" placeholder=" ">
+                                                        <label for="" class="form__label">Nome do titular</label>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-12">
+                                                    <br>
+                                                    <div class="btn btn-primary w-100">Usar cartão</div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="col-6">
+                    <br>
+                    <div class="btn btn-primary payment">
+                        Fazer compra
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
